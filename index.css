@@ -1,6 +1,7 @@
 :root {
     --color-black: 0 0 0;
-    --color-blue: 51 87 165
+    --color-blue: 51 87 165;
+    --color-red: 255 0 0;
 }
 
 *,
@@ -25,6 +26,7 @@ body {
     max-inline-size: 1300px;
     margin-inline: auto;
     background-color: rgba(var(--color-blue)/.1);
+
 }
 
 .black {
@@ -33,6 +35,10 @@ body {
 
 .blue {
     color: rgb(var(--color-blue))
+}
+
+.red {
+    color: rgba(var(--color-red)/.9)
 }
 
 h1,
@@ -73,12 +79,14 @@ li a {
     inline-size: 100%;
     padding-block: 1rem;
 
+
 }
 
 .container {
     width: 98%;
     padding-inline: 1rem;
     margin: 0 auto;
+    background-color: unset;
 }
 
 /* *****************utilty classes**************       */
@@ -93,6 +101,10 @@ li a {
 
 .space-between {
     justify-content: space-between;
+}
+
+.no-underline{
+    text-decoration: none;
 }
 
 
@@ -157,7 +169,7 @@ li a {
 
 .shadow {
     padding-block: 2rem;
-    box-shadow: 1.3px 1.5px 3.5px 1.5px rgb(var(--color-blue)/.1);
+    box-shadow: 0px 0px 6px 1px rgb(var(--color-blue)/.1);
     border-radius: 15px;
     padding-inline: 1rem;
 }
