@@ -103,7 +103,7 @@ li a {
     justify-content: space-between;
 }
 
-.no-underline{
+.no-underline {
     text-decoration: none;
 }
 
@@ -252,10 +252,11 @@ li:hover a {
 
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 789px) {
     #photo-article {
         display: flex;
-
+        justify-content: flex-start;
+        padding-inline: 0rem;
 
     }
 
@@ -294,6 +295,20 @@ li:hover a {
 
     #breadcrumb-cont {
         justify-content: flex-end;
+    }
+
+    #mq-flex {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    #mq-flex h1 {
+        width: 45%;
+    }
+
+    #mq-flex .blue {
+        width: 45%;
     }
 }
 
