@@ -256,8 +256,9 @@ li:hover a {
     #photo-article {
         display: flex;
         justify-content: flex-start;
-        padding-inline: 0rem;
-
+        padding-inline: 2rem;
+        padding-right: 4rem;
+        background-color: bisque;
     }
 
     #photo {
@@ -265,8 +266,11 @@ li:hover a {
     }
 
     .name-cont {
-        width: 50%;
+        width: 60%;
     }
+
+
+
 
     #section-two {
         display: flex;
@@ -304,11 +308,11 @@ li:hover a {
     }
 
     #mq-flex h1 {
-        width: 45%;
+        width: 100%;
     }
 
     #mq-flex .blue {
-        width: 45%;
+        width: 100%;
     }
 }
 
@@ -323,5 +327,8 @@ li:hover a {
         justify-content: flex-end;
     }
 
+    .pad-2 {
+        padding-inline-end: 2rem
+    }
 
 }
