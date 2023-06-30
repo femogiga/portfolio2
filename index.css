@@ -20,10 +20,11 @@ img {
 body {
     line-height: 1.2;
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(var(--color-black)/.7);
     max-inline-size: 1300px;
     margin-inline: auto;
+    background-color: rgba(var(--color-blue)/.1);
 }
 
 .black {
@@ -148,6 +149,19 @@ li a {
 
 }
 
+#photo-article {
+    padding-block: 2rem;
+    box-shadow: 1.3px 1.5px 3.5px 1.5px rgb(var(--color-blue)/.1);
+    border-radius: 15px;
+}
+
+.shadow {
+    padding-block: 2rem;
+    box-shadow: 1.3px 1.5px 3.5px 1.5px rgb(var(--color-blue)/.1);
+    border-radius: 15px;
+    padding-inline: 1rem;
+}
+
 .progress-container {
 
     max-inline-size: 320px;
@@ -162,7 +176,7 @@ li a {
 
 .bar>p {
     width: 15%;
-    background-color: bisque;
+
 }
 
 
@@ -229,6 +243,8 @@ li:hover a {
 @media only screen and (min-width: 600px) {
     #photo-article {
         display: flex;
+
+
     }
 
     #photo {
@@ -246,7 +262,7 @@ li:hover a {
 
 
     .wd-40 {
-        width: 90%;
+        width: 80%;
     }
 
     #section-four article {
